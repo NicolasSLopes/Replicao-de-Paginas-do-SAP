@@ -1,5 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 20px;
+}
+
+.card-inicio {
+    background-color: #cfe0f5;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    width: 1200px ;
+}
+
 .Inicio {
-    background-color: rgb(89, 171, 226);
-    margin: 2px;
     display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.img_robo {
+    width: 220px;
+}
+
+.texto p {
+    margin: 5px 0 15px 0;
+    font-size: 16px;
+}
+
+button {
+    padding: 8px 15px;
+    border: none;
+    background-color: #1e5bd8;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.card-compras {
+    background-color: #cfe0f5;
+    padding: 20px;
+    border-radius: 15px;
+    width: 1200px ;
+}
+
+.produtos {
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+    flex-wrap: wrap;
+}
+
+.img-materiais {
+    width: 80px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
 }
