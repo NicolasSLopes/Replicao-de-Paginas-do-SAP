@@ -5,12 +5,12 @@ body {
     padding: 20px;
 }
 
-#card-inicio {
+.card {
     background-color: #cfe0f5;
     padding: 20px;
     border-radius: 15px;
-    margin-bottom: 20px;
-    width: 1200px ;
+    margin-bottom: 25px;
+    width: 1200px;
 }
 
 .Inicio {
@@ -43,11 +43,8 @@ button {
     margin-left: 100px; 
 }
 
-#card-compras {
-    background-color: #cfe0f5;
-    padding: 20px;
-    border-radius: 15px;
-    width: 1200px ;
+h4 {
+    color: #1e5bd8;
 }
 
 .lista-produtos{
@@ -67,4 +64,43 @@ button {
 
 .img-materiais {
     width: 80px;
+}
+
+
+.opcoes-pedidos {
+    background-color: #ffffff;
+    width: 1200px;
+    border-radius: 20px;
+    gap: 20px;
+}
+
+.pedidos {
+    gap: 20px;
+}
+
+table {
+    width: 100%;
+    background: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+}
+
+.coluna-esquerda {
+    width: 70%;
+}
+
+.coluna-direita {
+    width: 30%;
+}
+
+.card-pequeno {
+    background-color: #cfe0f5;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 20px;
 }
